@@ -1,6 +1,6 @@
 
-import BottomNav from "../components/bottom-nav/page";
-import ListingCard from "../components/card/page";
+import BottomNav from "../../components/bottom-nav/page";
+import ListingCard from "../../components/card/page";
 
 
 export default function Home() {
@@ -48,10 +48,6 @@ export default function Home() {
                     <ListingCard />
                 </div>
             </div>
-            <div className="carousel-item">
-                Hel;lo
-            </div>
-            <BottomNav />
         </div>
     );
 }
