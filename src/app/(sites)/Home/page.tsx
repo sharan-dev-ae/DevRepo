@@ -1,10 +1,26 @@
-
+import CatergoryCard from "@/app/components/category-card/page";
 import BottomNav from "../../components/bottom-nav/page";
 import ListingCard from "../../components/card/page";
-
-
+import './page.css';
+interface ListingItem {
+    category: string;
+}
 export default function Home() {
-
+    const listingData: ListingItem[] = [
+        {
+            category: 'Certified Pre-owned',
+        },
+        {
+            category: 'Vintage'
+        },
+        {
+            category: 'Certified Pre-owned',
+        },
+        {
+            category: 'Vintage'
+        }
+    ]
+   
     return (
         <div style={{ position: 'relative' }} >
             <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel" style={{ padding: '10px' }}>
@@ -34,20 +50,28 @@ export default function Home() {
                 </a>
             </div>
 
-            <div className="row m-2">
-                <div className="col-md-3">
-                    <ListingCard />
+            <div className="row m-6 justify-content-center">
+                {listingData.map((data) => {
+                    return (
+                        <div className="col-md-2 mb-3 card-container">
+                            <div className="card"><ListingCard data={data.category} /></div>
+                        </div>
+                    )
+                })}
+
+                {/* <div className="col-md-2 mb-3 card-container">
+                    <div className="card"><ListingCard data={listingObj.certified} /></div>
                 </div>
-                <div className="col-md-3">
-                    <ListingCard />
+                <div className="col-md-2 mb-3 card-container">
+                    <div className="card"><ListingCard data={listingObj.vintage} /></div>
                 </div>
-                <div className="col-md-3">
-                    <ListingCard />
-                </div>
-                <div className="col-md-3">
-                    <ListingCard />
-                </div>
+                <div className="col-md-2 mb-3 card-container">
+                    <div className="card"><ListingCard data={listingObj.certified} /></div>
+                </div> */}
+
             </div>
+            <CatergoryCard/>
+
         </div>
     );
 }

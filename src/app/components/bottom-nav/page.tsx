@@ -14,7 +14,7 @@ const BottomNav: NextPage<Props> = ({ }) => {
         console.log('HELLOO',router)
     }, [])
     return (
-        <div className="fixed-bottom text-center mb-4 bg-secondary" style={{ display: 'flex', justifyContent: 'center' }}>
+        <div className="fixed-bottom text-center  bg-secondary" style={{ display: 'flex', justifyContent: 'center' }}>
             <div style={{ width: '200px', position: 'relative' }}> <button style={{ position: 'relative', bottom: '15px' }} className="btn btn-primary rounded-circle" onClick={test}>
                 +
             </button></div>

@@ -1,0 +1,48 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "John Doe",
+            "email": "john@example.com"
+        },
+        {
+            "id": 2,
+            "name": "Jane Doe",
+            "email": "jane@example.com"
+        }
+    ],
+    "used-cars": [
+        {
+            "name": "SUV",
+            "icon": "https://i.ibb.co/GVN4CcQ/3d-car-with-minimal-background.jpg"
+        },
+        {
+            "name": "Sedan",
+            "icon": "https://i.ibb.co/GVN4CcQ/3d-car-with-minimal-background.jpg"
+        },
+        {
+            "name": "Coupe",
+            "icon": "https://i.ibb.co/GVN4CcQ/3d-car-with-minimal-background.jpg"
+        },
+        {
+            "name": "Hatchback",
+            "icon": "https://i.ibb.co/GVN4CcQ/3d-car-with-minimal-background.jpg"
+        },
+        {
+            "name": "Convertible",
+            "icon": "https://i.ibb.co/GVN4CcQ/3d-car-with-minimal-background.jpg"
+        },
+        {
+            "name": "Pickup Truck",
+            "icon": "https://i.ibb.co/GVN4CcQ/3d-car-with-minimal-background.jpg"
+        },
+        {
+            "name": "Wagon",
+            "icon": "https://i.ibb.co/GVN4CcQ/3d-car-with-minimal-background.jpg"
+        },
+        {
+            "name": "Minivan",
+            "icon": "https://i.ibb.co/GVN4CcQ/3d-car-with-minimal-background.jpg"
+        }
+    ]
+}

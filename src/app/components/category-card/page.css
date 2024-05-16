@@ -1,0 +1,30 @@
+.categoryCard {
+    height: 150px;
+    width: 150px;
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.categoryCardContainer{
+    display: flex;
+    flex-direction: row;
+    background-color: aqua;
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.categoryCardImg{
+    height: 100px;
+    width: 100px;
+}
+.catgeorycardDiv{
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+}
